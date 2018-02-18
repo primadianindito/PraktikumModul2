@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.primadi_1202154151_modul2_1.com.example.asus.primadi_1202154151_modul2.DetailMenu">
+
+    <ImageView
+        android:id="@+id/DetailGambar"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/nasigoreng"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/DetailNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nasi Goreng"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/DetailHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 30000"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Komposisi"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/DetailDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nasi + Sosis + Ayam + Kerupuk"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+</LinearLayout>
